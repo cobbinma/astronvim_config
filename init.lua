@@ -252,7 +252,7 @@ local config = {
                 },
                 -- use mason-lspconfig to configure LSP installations
                 ["mason-lspconfig"] = {
-                        ensure_installed = { "rust_analyzer", "gopls", "pyright", "lua_rs" }, -- install rust_analyzer
+                        ensure_installed = { "rust_analyzer", "gopls", "pyright", "lua_ls" }, -- install rust_analyzer
                         -- overrides `require("mason-lspconfig").setup(...)`
                         -- ensure_installed = { "sumneko_lua" },
                 },
