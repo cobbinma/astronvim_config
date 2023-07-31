@@ -5,7 +5,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
-      ensure_installed = { "rust_analyzer", "gopls", "pyright", "lua_ls", "elixirls" },
+      ensure_installed = { "elixirls" },
     },
   },
   -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources

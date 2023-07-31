@@ -9,9 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  { 'simrat39/rust-tools.nvim' },
   { 'folke/tokyonight.nvim' },
-  { 'fatih/vim-go' },
-  { 'rust-lang/rust.vim' },
   { 'gleam-lang/gleam.vim' },
+  { 'tpope/vim-surround' },
 }
