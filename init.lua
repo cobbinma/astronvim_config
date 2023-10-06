@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "tokyonight-night",
+  colorscheme = "tokyonight-storm",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -29,7 +29,7 @@ return {
   lsp = {
     setup_handlers = {
       -- add custom handler
-      rust_analyzer = function(_, opts) require("rust-tools").setup { server = opts } end
+      rust_analyzer = function(_, opts) require("rust-tools").setup { server = opts } end,
     },
     -- customize lsp formatting options
     formatting = {
@@ -53,7 +53,7 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "gleam"
+      "gleam",
       -- "pyright"
     },
   },
