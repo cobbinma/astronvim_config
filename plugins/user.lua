@@ -9,8 +9,4 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  { "folke/tokyonight.nvim" },
-  { "gleam-lang/gleam.vim" },
-  { "tpope/vim-surround", lazy = false },
-  { "wakatime/vim-wakatime", lazy = false },
 }

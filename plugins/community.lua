@@ -19,6 +19,11 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.nix" },
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.pack.gleam" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.editing-support.vim-move" },
+  { import = "astrocommunity.media.vim-wakatime" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
